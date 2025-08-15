@@ -47,6 +47,10 @@
   <a href="https://github.com/Sharanyazx">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
+   <a href="https://www.kaggle.com/sharanyathirumoorthi">
+    <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" />
+  </a>
+  
 </p>
 
 <!-- TECH STACK SECTION -->
