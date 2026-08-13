@@ -338,14 +338,6 @@ flowchart LR
 
 ---
 
-## 🏆 GitHub Achievements
-
-<div align="center">
-
-<img src="./trophy.svg" width="90%" alt="GitHub Trophies"/>
-
-</div>
----
 
 ## 🧩 LeetCode
 
