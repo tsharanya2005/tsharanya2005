@@ -2,8 +2,6 @@ name: Generate GitHub Profile Trophies
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * 0"
 
 permissions:
   contents: write
@@ -13,13 +11,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate Trophy SVG
-        uses: ryo-ma/github-profile-trophy@v1
+      - name: Generate trophy
+        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
-          github_user_name: tsharanya2005
-          output_path: ./trophy.svg
+          username: tsharanya2005
+          output_path: trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit Trophy SVG
+      - name: Commit trophy
         uses: EndBug/add-and-commit@v9
         with:
           message: "Update GitHub trophies"
